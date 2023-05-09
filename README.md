@@ -1,0 +1,1 @@
+A command line application with the functionality to read an XLSX table and a JSON file and compare them, showing which items have changed

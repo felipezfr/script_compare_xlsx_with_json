@@ -1,0 +1,19 @@
+name: script_compare_xlsx_with_json
+description: A command-line application to compare files.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.0-11.0.dev
+
+# Add regular dependencies here.
+dependencies:
+  excel: ^2.1.0
+  # path: ^1.8.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+
+assets:
+  - assets/*.xlsx
