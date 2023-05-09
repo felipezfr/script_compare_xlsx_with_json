@@ -8,8 +8,8 @@ void main(List<String> arguments) {
     keyColumnIndex: 0,
     valueColumnIndex: 2,
   );
-  final jsonMap = readJson('assets/file_2.json');
+  final jsonMap = readJson('assets/file2.json');
 
   differenceBetweenMaps(
-      firstMap: xlsxMap, secondMap: jsonMap, trimValues: false);
+      firstMap: xlsxMap, secondMap: jsonMap, trimValues: true);
 }
